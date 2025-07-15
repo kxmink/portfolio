@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      background: #eee;
+      font-family: 'KakaoBigSans', sans-serif;
+    }
+
+    #wrap {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    #graphic_wrap {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    .btn {
+      position: fixed;
+      right: 10%;
+      bottom: 0;
+    }
+
+    .graphic_btn {
+      position: fixed;
+      right: 25%;
+      bottom: 0;
+    }
+
+    .btn a {
+      text-decoration: none;
+      color: #f5f3ee;
+      display: block;
+      width: 60px;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .btn a.view {
+      background: #D72638;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+
+    .btn a.gotop {
+      background: #f5f3ee;
+      color: #1e1e1e;
+      font-weight: 600;
+    }
+
+    @media (max-width:768px) {
+      .btn {
+        display: none;
+      }
+
+      #wrap {
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      #graphic_wrap {
+      width: 90%;
+      margin: 0 auto;
+    }
+    }

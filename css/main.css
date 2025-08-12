@@ -304,6 +304,7 @@ body { color: var(--main-color); font-family: var(--eng-font); overflow-x: hidde
 
 /* career */
 #career { margin-top: 200px; }
+#career a { cursor: pointer; }
 #career .inner { max-width: 1560px; padding-top: 20px; }
 #career .box { width: 500px; overflow: hidden; border-radius: 20px; }
 #career .box p { font-size: 2rem; font-family: var(--kor-font); color: var(--txt-color); line-height: 1.8; padding-top: 10px; }
@@ -426,3 +427,4 @@ body { color: var(--main-color); font-family: var(--eng-font); overflow-x: hidde
 /* go_top */
 
 .go_top { display: inline-block; position: fixed; bottom: 60px; right: 13px; background-color: transparent; border: 1px solid var(--main-color); width: 44px; height: 44px; border-radius: 10px; display: flex; justify-content: center; align-items: center; }
+
